@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-color: #094581;
+    color: #fff;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover:not(.active) {
+    background-color: #111;
+}
+
+header a.active {
+    background-color: #D60F12;
+}
+
+.jesse {
+    border: 2px solid #3975A1;
+}
+
+p {
+    width: 600px;
+}
+
+.sponsors {
+    width: 800px;
+}
+
+.sponsors ul {
+    list-style-type: none;
+}
+
+.sponsors a {
+    color: #fff;
+}
